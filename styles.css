@@ -1,0 +1,42 @@
+@import "reset.css";
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+}
+
+.toast-area {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.toast {
+    width: 12vw;
+    height: 10vh;
+    margin: 1vh;
+    border-radius: 50px;
+    background-color: #0b73f1;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.toast-success {
+    background-color: #0b73f1;
+}
+
+.toast-fail {
+    background-color: rgba(236, 59, 75, 0.8);
+}
+
+.toast-warning {
+    background-color: rgba(252, 215, 47, 0.8);
+}
